@@ -60,7 +60,9 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 		  app: undefined // will be set later
 		};
 ```
+
 	However, I wanted to use iOS9.3 simulators, so added the following definition to that file:
+	
 ```javascript	
 		exports.ios93 = {
 		  browserName: '',
