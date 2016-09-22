@@ -62,14 +62,14 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 
 	However, I wanted to use iOS9.3 simulators, so I added the following definition to that file:
 
-		exports.ios93 = {
-		  browserName: '',
-		  'appium-version': '1.3',
-		  platformName: 'iOS',
-		  platformVersion: '9.3',
-		  deviceName: 'iPhone 5s',
-		  app: undefined // will be set later
-		};
+				exports.ios93 = {
+					browserName: '',
+					'appium-version': '1.3',
+					platformName: 'iOS',
+					platformVersion: '9.3',
+					deviceName: 'iPhone 5s',
+					app: undefined // will be set later
+				};
   	
   1. If you added definitions to `caps.js`, you'll want use these definitions in the test(s) you want to run. For example, in `ios-simple.js`, the relevant line originally looked like:
   
@@ -84,3 +84,4 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
   	`npm run ios-simple.js`
   	
   1. Note that the file `sample-code/sample-code/examples/node/README.md` indicates which tests you can run. (I'm getting errors when I run `ios-complex.js`-- I assume those just haven't been updated in a while).
+  
