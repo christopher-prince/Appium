@@ -76,4 +76,16 @@ However, I wanted to use iOS9.3 simulators, so I added the following definition 
 		};
 ```
   	
+  1. If you added definitions to caps.js, you'll want use these definitions in the test(s) you want to run. For example, in `ios-simple.js`, the relevant line originally looked like:
+  
+  	 `var desired = _.clone(require("./helpers/caps").ios92);`
+  	 
+  	 and I changed that to:
+  	 
+  	 `var desired = _.clone(require("./helpers/caps").ios93);`
+  	 
+  1. Now we can actually run the tests:
+  
+  	`npm run ios-simple.js`
   	
+  1. Note that the file `sample-code/sample-code/examples/node/README.md` indicates which tests you can run. (I'm getting errors when I run `ios-complex.js`-- I assume those just haven't been updated in a while).
