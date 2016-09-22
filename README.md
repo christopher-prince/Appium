@@ -14,4 +14,4 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 
 1. Examples. My next main effort worked, but I had to figure out many of the steps. I wanted to get [these examples](https://github.com/appium/sample-code) running. 
 
-1.1. Test line.
+  1. Test line.
