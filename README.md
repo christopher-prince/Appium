@@ -50,8 +50,7 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
   	`npm install`
   	
   1. You now will likely need to edit some files to get the Node.js tests to run. The file `sample-code/examples/node/helpers/caps.js` has some definitions about specific iOS Simulator devices. For example, when I downloaded the examples, the `caps.js` file included this definition:  
-  
-  
+```javascript
 		exports.ios92 = {
 		  browserName: '',
 		  'appium-version': '1.3',
@@ -60,9 +59,9 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 		  deviceName: 'iPhone 5s',
 		  app: undefined // will be set later
 		};
-
+```
 	However, I wanted to use iOS9.3 simulators, so added the following definition to that file:
-	
+```javascript	
 		exports.ios93 = {
 		  browserName: '',
 		  'appium-version': '1.3',
@@ -71,6 +70,6 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 		  deviceName: 'iPhone 5s',
 		  app: undefined // will be set later
 		};
-
+```
   	
   	
