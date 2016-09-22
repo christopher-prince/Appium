@@ -16,8 +16,8 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 
   1. You need to the basic installs mentioned at the bottom of the [http://appium.io](http://appium.io) page. At a Mac terminal window, type:
   
-  	`brew install node`
-  	`npm install -g appium`
+  	`brew install node`  
+  	`npm install -g appium`  
   	
   	
   	
