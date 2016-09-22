@@ -14,4 +14,10 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
 
 1. Examples. My next main effort worked, but I had to figure out many of the steps. I wanted to get [these examples](https://github.com/appium/sample-code) running. 
 
-  1. Test line.
+  1. You need to the basic installs mentioned at the bottom of the [http://appium.io](http://appium.io) page. At a Mac terminal window, type:
+  
+  	`brew install node`
+  	`npm install -g appium`
+  	
+  	
+  	
