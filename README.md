@@ -70,7 +70,7 @@ These are just my observations about [Appium](http://appium.io). So, if I need t
         };
         ```
         
-	However, I wanted to use iOS9.3 simulators, so I added the following definition to that file:
+  However, I wanted to use iOS9.3 simulators, so I added the following definition to that file:
 
         ```
         exports.ios93 = {
